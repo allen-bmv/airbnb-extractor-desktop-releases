@@ -2,8 +2,8 @@
 
 Public download and auto-update channel for **Airbnb Image Extractor**.
 
-The application source is private. This repository contains only signed-build
-inputs and release artifacts produced by the project's GitHub Actions pipeline.
+The application source is private. This repository contains only the release
+artifacts produced by the project's GitHub Actions pipeline.
 
 > Latest release: [github.com/allen-bmv/airbnb-extractor-desktop-releases/releases/latest](https://github.com/allen-bmv/airbnb-extractor-desktop-releases/releases/latest)
 
