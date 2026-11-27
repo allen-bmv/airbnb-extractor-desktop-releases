@@ -17,6 +17,19 @@ artifacts produced by the project's GitHub Actions pipeline.
 
 Each release also contains release notes and checksums for every asset.
 
+## License
+
+The app requires a license key. One license activates one device.
+
+1. Obtain a key from the administrator.
+2. Open **Settings → License**.
+3. Paste the key and click **Verify**.
+
+The API returns a device-bound token, stored only on your computer in SQLite.
+The key itself is not stored. Moving to another computer requires the
+administrator to reset the device. Without a license, extraction requests are
+rejected by the API.
+
 ## Verify the download
 
 Use the SHA-256 values from `latest.json`.
