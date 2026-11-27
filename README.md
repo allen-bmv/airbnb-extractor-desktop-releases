@@ -154,16 +154,16 @@ https://github.com/allen-bmv/airbnb-extractor-desktop-releases/releases/latest/d
 
 ```json
 {
-  "version": "0.1.2",
-  "notes": "Airbnb Image Extractor v0.1.2",
+  "version": "0.1.3",
+  "notes": "Airbnb Image Extractor v0.1.3",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/.../releases/download/v0.1.2/airbnb-extractor-desktop.exe",
+      "url": "https://github.com/.../releases/download/v0.1.3/airbnb-extractor-desktop.exe",
       "sha256": "…",
       "size": 20763136
     },
     "linux-x86_64": {
-      "url": "https://github.com/.../releases/download/v0.1.2/airbnb-extractor-desktop_0.1.2-1_amd64.deb",
+      "url": "https://github.com/.../releases/download/v0.1.3/airbnb-extractor-desktop_0.1.3-1_amd64.deb",
       "sha256": "…",
       "size": 7191540
     }
@@ -181,8 +181,8 @@ Releases are built from the private source repository:
 2. Commit and push to `main`.
 3. Create and push a tag:
    ```bash
-   git tag v0.1.2
-   git push origin v0.1.2
+   git tag v0.1.3
+   git push origin v0.1.3
    ```
 4. GitHub Actions builds:
    - Windows portable `.exe` (icon embedded)
